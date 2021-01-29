@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-29T06:50:52.374Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="GM6FjHTZb9s3VK5fexGa" version="13.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-29T08:04:32.140Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="19oXFndqRyq3FH3xqCHL" version="13.6.9" type="github">
   <diagram id="xC7v2648ofnARtWQBmom" name="Page-1">
     <mxGraphModel dx="1113" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -31,25 +31,25 @@
             <mxPoint x="460" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IdgxDAqqp9eMmObDDpIW-15" value="dispatch event&lt;br&gt;GetTransactionList(Currency)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.153;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="IdgxDAqqp9eMmObDDpIW-13">
+        <mxCell id="IdgxDAqqp9eMmObDDpIW-15" value="dispatch event&lt;br&gt;GetTransactionList(&amp;lt;Currency&amp;gt;)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.153;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="IdgxDAqqp9eMmObDDpIW-13">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="170" y="260" as="sourcePoint" />
             <mxPoint x="250" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IdgxDAqqp9eMmObDDpIW-16" value="dispatch event&lt;br&gt;&amp;nbsp;UpdateTransactionList(List&amp;lt;CurrencyTransactions&amp;gt;)" style="html=1;verticalAlign=bottom;endArrow=block;exitX=-0.367;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IdgxDAqqp9eMmObDDpIW-13">
+        <mxCell id="IdgxDAqqp9eMmObDDpIW-16" value="dispatch event&lt;br&gt;&amp;nbsp;UpdateTransactionList(&amp;lt;List&amp;lt;CurrencyTransactions&amp;gt;&amp;gt;)" style="html=1;verticalAlign=bottom;endArrow=block;exitX=-0.367;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IdgxDAqqp9eMmObDDpIW-13">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="530" y="380" as="sourcePoint" />
             <mxPoint x="170" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IdgxDAqqp9eMmObDDpIW-19" value="dispatch event&lt;br&gt;&amp;nbsp;UpdateTransactionList(List&amp;lt;CurrencyTransactions&amp;gt;)" style="html=1;verticalAlign=bottom;endArrow=block;exitX=-0.14;exitY=0.13;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IdgxDAqqp9eMmObDDpIW-23">
+        <mxCell id="IdgxDAqqp9eMmObDDpIW-19" value="dispatch event&lt;br&gt;&amp;nbsp;UpdateTransactionList(&amp;lt;List&amp;lt;CurrencyTransactions&amp;gt;&amp;gt;)" style="html=1;verticalAlign=bottom;endArrow=block;exitX=-0.14;exitY=0.13;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IdgxDAqqp9eMmObDDpIW-23">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="744" y="550" as="sourcePoint" />
             <mxPoint x="170" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IdgxDAqqp9eMmObDDpIW-22" value="dispatch event&lt;br&gt;&amp;nbsp;UpdateCurrencyList(List&amp;lt;CurrencyTransactions&amp;gt;)" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IdgxDAqqp9eMmObDDpIW-25">
+        <mxCell id="IdgxDAqqp9eMmObDDpIW-22" value="dispatch event&lt;br&gt;&amp;nbsp;UpdateCurrencyList(&amp;lt;List&amp;lt;CurrencyTransactions&amp;gt;&amp;gt;)" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IdgxDAqqp9eMmObDDpIW-25">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="745" y="390" as="sourcePoint" />
             <mxPoint x="170" y="390" as="targetPoint" />
@@ -82,7 +82,7 @@
             <mxPoint x="470" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IdgxDAqqp9eMmObDDpIW-29" value="dispatch event&lt;br&gt;&amp;nbsp;UpdateTransactionList(List&amp;lt;CurrencyTransactions&amp;gt;)" style="html=1;verticalAlign=bottom;endArrow=block;exitX=-0.1;exitY=0.963;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IdgxDAqqp9eMmObDDpIW-25">
+        <mxCell id="IdgxDAqqp9eMmObDDpIW-29" value="dispatch event&lt;br&gt;&amp;nbsp;UpdateTransactionList(&amp;lt;List&amp;lt;CurrencyTransactions&amp;gt;&amp;gt;)" style="html=1;verticalAlign=bottom;endArrow=block;exitX=-0.1;exitY=0.963;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IdgxDAqqp9eMmObDDpIW-25">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="461.3299999999999" y="350.31999999999994" as="sourcePoint" />
             <mxPoint x="170" y="467" as="targetPoint" />
